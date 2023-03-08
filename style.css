@@ -42,6 +42,7 @@
 
  .heading {
    text-align: center;
+   margin-top: 1rem;
  }
 
  .heading h2 {
@@ -345,6 +346,134 @@
  .project-box:hover a {
    color: #8b8a8f;
  }
+
+ .project-content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 2rem;
+ }
+ .project-container {
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+ .row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ .project-box {
+   padding: 20px;
+   width: 260px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   border-radius: 0.5rem;
+   border-bottom: 2px solid var(--main-color);
+   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+ }
+
+ .project-box:hover {
+   background-color: #02225a;
+ }
+
+ .project-box h3 {
+   font-size: 1rem;
+   font-weight: 600;
+   margin: 0.7rem 0 0.4rem;
+ }
+
+ .project-box:hover h3 {
+   color: #fff;
+ }
+
+ .project-box .bx {
+   padding-top: 2rem;
+   font-size: 54px;
+   color: var(--main-color);
+ }
+
+ .project-box:hover .bx {
+   color: #22cf91;
+ }
+
+ .project-box a {
+   color: var(--main-color);
+   font-size: var(--p-font);
+   font-weight: 500;
+ }
+
+ .project-box:hover a {
+   color: #8b8a8f;
+ }
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.portfolio-container {
+ display: grid;
+ align-items: center;
+ gap: 2rem;
+ margin-top: 4rem;
+}
+.row { 
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.portfolio-box {
+  padding: 20px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.portfolio-box:hover {
+  background-color: #02225a;
+}
+
+.portfolio-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+
+.portfolio-box:hover h3 {
+  color: #fff;
+}
+
+.portfolio-box .bx {
+  padding-top: 2rem;
+  font-size: 54px;
+  color: var(--main-color);
+}
+
+.portfolio-box:hover .bx {
+  color: #22cf91;
+}
+
+.portfolio-box a {
+  color: var(--main-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+}
+
+.portfolio-box:hover a {
+  color: #8b8a8f;
+}
 
  .contact-form {
    display: grid;
